@@ -15,6 +15,12 @@
 		9D67D7361F0B94E100F5EEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D67D7341F0B94E100F5EEC2 /* LaunchScreen.storyboard */; };
 		9D67D7411F0B94E100F5EEC2 /* AJBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D67D7401F0B94E100F5EEC2 /* AJBannerTests.m */; };
 		9D67D74C1F0B94E100F5EEC2 /* AJBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D67D74B1F0B94E100F5EEC2 /* AJBannerUITests.m */; };
+		9D67D75D1F0B961A00F5EEC2 /* AJBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D67D75C1F0B961A00F5EEC2 /* AJBannerView.m */; };
+		9D67D7601F0B96A300F5EEC2 /* AJBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D67D75F1F0B96A300F5EEC2 /* AJBannerCell.m */; };
+		9D67D7631F0B97C800F5EEC2 /* AJBannerPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D67D7621F0B97C800F5EEC2 /* AJBannerPageControl.m */; };
+		9D67D7681F0CBF1C00F5EEC2 /* AJBannerImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D67D7651F0CBF1C00F5EEC2 /* AJBannerImage1.jpg */; };
+		9D67D7691F0CBF1C00F5EEC2 /* AJBannerImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D67D7661F0CBF1C00F5EEC2 /* AJBannerImage2.jpg */; };
+		9D67D76A1F0CBF1C00F5EEC2 /* AJBannerImage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D67D7671F0CBF1C00F5EEC2 /* AJBannerImage3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		9D67D7471F0B94E100F5EEC2 /* AJBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D67D74B1F0B94E100F5EEC2 /* AJBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJBannerUITests.m; sourceTree = "<group>"; };
 		9D67D74D1F0B94E100F5EEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D67D75B1F0B961A00F5EEC2 /* AJBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJBannerView.h; sourceTree = "<group>"; };
+		9D67D75C1F0B961A00F5EEC2 /* AJBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJBannerView.m; sourceTree = "<group>"; };
+		9D67D75E1F0B96A300F5EEC2 /* AJBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJBannerCell.h; sourceTree = "<group>"; };
+		9D67D75F1F0B96A300F5EEC2 /* AJBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJBannerCell.m; sourceTree = "<group>"; };
+		9D67D7611F0B97C800F5EEC2 /* AJBannerPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJBannerPageControl.h; sourceTree = "<group>"; };
+		9D67D7621F0B97C800F5EEC2 /* AJBannerPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJBannerPageControl.m; sourceTree = "<group>"; };
+		9D67D7651F0CBF1C00F5EEC2 /* AJBannerImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AJBannerImage1.jpg; sourceTree = "<group>"; };
+		9D67D7661F0CBF1C00F5EEC2 /* AJBannerImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AJBannerImage2.jpg; sourceTree = "<group>"; };
+		9D67D7671F0CBF1C00F5EEC2 /* AJBannerImage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AJBannerImage3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,8 @@
 		9D67D7251F0B94E100F5EEC2 /* AJBanner */ = {
 			isa = PBXGroup;
 			children = (
+				9D67D7641F0CBF1C00F5EEC2 /* Source */,
+				9D67D7591F0B956600F5EEC2 /* Classes */,
 				9D67D7291F0B94E100F5EEC2 /* AppDelegate.h */,
 				9D67D72A1F0B94E100F5EEC2 /* AppDelegate.m */,
 				9D67D72C1F0B94E100F5EEC2 /* ViewController.h */,
@@ -138,6 +155,37 @@
 				9D67D74D1F0B94E100F5EEC2 /* Info.plist */,
 			);
 			path = AJBannerUITests;
+			sourceTree = "<group>";
+		};
+		9D67D7591F0B956600F5EEC2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D67D75A1F0B956600F5EEC2 /* AJBanner */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D67D75A1F0B956600F5EEC2 /* AJBanner */ = {
+			isa = PBXGroup;
+			children = (
+				9D67D75B1F0B961A00F5EEC2 /* AJBannerView.h */,
+				9D67D75C1F0B961A00F5EEC2 /* AJBannerView.m */,
+				9D67D75E1F0B96A300F5EEC2 /* AJBannerCell.h */,
+				9D67D75F1F0B96A300F5EEC2 /* AJBannerCell.m */,
+				9D67D7611F0B97C800F5EEC2 /* AJBannerPageControl.h */,
+				9D67D7621F0B97C800F5EEC2 /* AJBannerPageControl.m */,
+			);
+			path = AJBanner;
+			sourceTree = "<group>";
+		};
+		9D67D7641F0CBF1C00F5EEC2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9D67D7651F0CBF1C00F5EEC2 /* AJBannerImage1.jpg */,
+				9D67D7661F0CBF1C00F5EEC2 /* AJBannerImage2.jpg */,
+				9D67D7671F0CBF1C00F5EEC2 /* AJBannerImage3.jpg */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +250,7 @@
 		9D67D71B1F0B94E100F5EEC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AJ;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = AJ;
 				TargetAttributes = {
@@ -251,6 +300,9 @@
 			files = (
 				9D67D7361F0B94E100F5EEC2 /* LaunchScreen.storyboard in Resources */,
 				9D67D7331F0B94E100F5EEC2 /* Assets.xcassets in Resources */,
+				9D67D7681F0CBF1C00F5EEC2 /* AJBannerImage1.jpg in Resources */,
+				9D67D7691F0CBF1C00F5EEC2 /* AJBannerImage2.jpg in Resources */,
+				9D67D76A1F0CBF1C00F5EEC2 /* AJBannerImage3.jpg in Resources */,
 				9D67D7311F0B94E100F5EEC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +329,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D67D72E1F0B94E100F5EEC2 /* ViewController.m in Sources */,
+				9D67D7631F0B97C800F5EEC2 /* AJBannerPageControl.m in Sources */,
+				9D67D75D1F0B961A00F5EEC2 /* AJBannerView.m in Sources */,
 				9D67D72B1F0B94E100F5EEC2 /* AppDelegate.m in Sources */,
+				9D67D7601F0B96A300F5EEC2 /* AJBannerCell.m in Sources */,
 				9D67D7281F0B94E100F5EEC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M953KLT6PD;
 				INFOPLIST_FILE = AJBanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJBanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M953KLT6PD;
 				INFOPLIST_FILE = AJBanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJBanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
